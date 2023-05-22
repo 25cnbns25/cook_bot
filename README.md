@@ -11,7 +11,7 @@ yarn init
 yarn add discord.js
 
 ④discord.js、dotenvのインストール。
-npm install discord.js dotenv
+yarn add dotenv
 
 ⑤.envファイル作成、トークン情報を記載。
 .envファイル
