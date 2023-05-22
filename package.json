@@ -1,0 +1,11 @@
+{
+  "name": "cook_bot2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/25cnbns25/cook_bot.git",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3"
+  }
+}
