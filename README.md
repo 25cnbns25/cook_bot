@@ -13,5 +13,9 @@ yarn add discord.js
 ④discord.js、dotenvのインストール。
 npm install discord.js dotenv
 
-⑤bot起動。
+⑤.envファイル作成、トークン情報を記載。
+.envファイル
+　∟DISCORD_TOKEN = "Discordのトークン情報"
+
+⑥bot起動。
 node index.js
