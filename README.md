@@ -10,12 +10,16 @@ yarn init
 ③ライブラリを追加。
 yarn add discord.js
 
-④discord.js、dotenvのインストール。
+④dotenvのインストール。
 yarn add dotenv
 
-⑤.envファイル作成、トークン情報を記載。
+⑤cronのインストール。
+yarn add cron
+
+⑥.envファイル作成。
 .envファイル
 　∟DISCORD_TOKEN = "Discordのトークン情報"
+　∟COOK_CHANNEL = "チャンネルID指定"
 
-⑥bot起動。
+⑦bot起動。
 node index.js

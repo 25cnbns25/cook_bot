@@ -43,7 +43,7 @@ client.on('ready', async () => {
   const channel = await client.channels.fetch(cookChannel);
 
   //毎週金曜日 18:00に催促メッセージを送信
-  new CronJob('00 00 18 * * Friday', () => {
+  new CronJob('00 00 18 * * 5', () => {
       //処理
       channel.send('だいすーしーキッチンオープンして');
   }, null, true, 'Asia/Tokyo');
